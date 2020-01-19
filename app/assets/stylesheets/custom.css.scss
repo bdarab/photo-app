@@ -1,3 +1,7 @@
+.navbar {
+  background-color: darken($color: #000000, $amount: 0);
+  color: white;
+}
 .user-name {
   padding: 0 !important ;
   padding-left: 5px;
