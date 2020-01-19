@@ -16,6 +16,6 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).on("turbolinks:load", function() {
+$(document).on("turbolinks:load", function () {
   $(".alert").fadeOut(3500);
 });
