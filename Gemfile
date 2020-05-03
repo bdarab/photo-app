@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem "puma", ">= 3.12.4"
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
@@ -33,10 +33,10 @@ gem 'fog-aws'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem "nokogiri", ">= 1.10.8"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem "actionview", ">= 5.2.4.2"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
